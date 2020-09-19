@@ -1,4 +1,7 @@
 @media screen and (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: blue; }
+
   .newscontainer1 {
     display: flex;
     flex-wrap: wrap;
@@ -13,17 +16,159 @@
     align-items: center;
     margin-bottom: 25px; }
 
+  .container3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+
+  .container3 .frame2 .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%; }
+
+  .frame2 {
+    width: 40%;
+    position: relative;
+    margin-bottom: 20px; }
+
+  .newscontainer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px; }
+
+  .newscontainer1 .frame .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%;
+    padding: 5px; }
+
+  .newscontainer2 .frame .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%; }
+
+  .frame {
+    width: 40%;
+    position: relative; }
+
+  .np2 {
+    width: 30%;
+    margin-left: 35%; }
+
   .cfblack {
     display: none; }
 
   .htbad {
-    display: none; } }
+    display: none; }
+
+  .date {
+    display: none; }
+
+  li {
+    float: left; }
+
+  li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 0px 6px 20px;
+    font-size: 1.5em;
+    text-align: center; }
+
+  #nameCF {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px; } }
 @media screen and (min-width: 1201px) {
   .fswd {
     display: none; }
 
   .cfwhite {
-    display: none; } }
+    display: none; }
+
+  .container3 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+
+  .frame2 {
+    width: 40%;
+    position: relative;
+    margin-bottom: 20px; }
+
+  .newscontainer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px; }
+
+  .newscontainer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px; }
+
+  .newscontainer1 .frame .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0%;
+    padding: 5px; }
+
+  .newscontainer2 .frame .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%; }
+
+  .container3 .frame2 .newstext {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%; }
+
+  .frame {
+    width: 28%;
+    position: relative; }
+
+  .np2 {
+    width: 30%;
+    margin-left: 70%; }
+
+  li {
+    float: left; }
+
+  li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 0px 6px 40px;
+    font-size: 3em;
+    text-align: center; }
+
+  #nameCF {
+    color: white;
+    text-align: center;
+    font-size: 2em; } }
 * {
   margin: 0;
   padding: 0; }
@@ -55,17 +200,6 @@ ul {
   overflow: hidden;
   background-color: black; }
 
-li {
-  float: left; }
-
-li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 6px 0px 6px 40px;
-  font-size: 3em;
-  text-align: center; }
-
 .date {
   text-align: right;
   color: black;
@@ -77,75 +211,24 @@ li a {
   width: 95%;
   padding: 12px 0px;
   margin-left: 2.5%;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  margin-top: 10px; }
 
 .greybanner p {
   font-size: 2em;
   margin-left: 12px; }
 
-.newscontainer1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 25px; }
-
-.frame {
-  width: 28%;
-  position: relative; }
-
 .frame img {
   width: 100%;
   object-fit: cover; }
-
-.newscontainer1 .frame .newstext {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 28px;
-  position: absolute;
-  bottom: 0%;
-  padding: 5px; }
-
-.newscontainer2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 25px; }
-
-.newscontainer2 .frame .newstext {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  position: absolute;
-  bottom: 0%; }
 
 .htbad {
   width: 95%;
   margin-left: 2.5%;
   margin-bottom: 30px; }
 
-.container3 {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.frame2 {
-  width: 40%;
-  position: relative;
-  margin-bottom: 20px; }
-
 .frame2 img {
   width: 100%; }
-
-.container3 .frame2 .newstext {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  position: absolute;
-  bottom: 0%; }
 
 .container4 {
   display: flex;
@@ -155,15 +238,7 @@ li a {
 .footer {
   width: 100%;
   bottom: 0;
-  background-color: black; }
-
-.np2 {
-  width: 30%;
-  margin-left: 70%; }
-
-#nameCF {
-  color: white;
-  text-align: center;
-  font-size: 2em; }
+  background-color: black;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
